@@ -1,0 +1,65 @@
+.header{
+    background-image: url(../image/laptop.webp);
+    background-position: center center;
+    background-size:100% 100%
+}.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.layer-contenet h1{
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: relative;
+padding: 10px;
+}h1::after{
+    position: absolute;
+    content: "";
+    left: 40%;
+    bottom: 0;
+    width: 20%;
+    height: 3px;
+    background-color: rgb(99, 96, 102);
+}ul li a:hover{
+    color: rgb(146, 16, 16) !important;
+}#Services h1{
+    position: relative;
+    padding: 10px;
+}#Services h1::after{
+        position: absolute;
+    content: "";
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(99, 96, 102);
+
+}#Portfolio img{
+    transition: transform 0.3s;
+}
+
+
+#Portfolio img:hover{
+    transform: scale(1.1);
+    border-radius: 5px;
+}#Contact h1{
+    position: relative;
+    padding: 10px;
+}#Contact h1::after{
+        position: absolute;
+    content: "";
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(99, 96, 102);
+}
